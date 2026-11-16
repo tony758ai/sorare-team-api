@@ -1,0 +1,16 @@
+{
+  "name": "sorare-team-api",
+  "version": "0.1.0",
+  "description": "Client for the public Sorare GraphQL API (cards, users, auctions)",
+  "type": "module",
+  "main": "src/sorare.js",
+  "scripts": {
+    "card": "node src/cli.js card",
+    "user": "node src/cli.js user",
+    "auctions": "node src/cli.js auctions"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
